@@ -17,6 +17,9 @@ yarn add -D eslint-config-prettier  eslint-plugin-jest-dom husky msw prettier
  "eslint-config-prettier"
 ```
 ### set up husky
+```bash
+npx husky-init && yarn 
+```
 #### in ./husky/pre-commit file add
 ```bash 
 npx lint-staged
@@ -70,3 +73,4 @@ afterEach(() => server.resetHandlers());
 // Clean up after the tests are finished.
 afterAll(() => server.close());
 ```
+
