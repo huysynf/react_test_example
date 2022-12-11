@@ -4,15 +4,15 @@
 yarn add -D eslint-config-prettier  eslint-plugin-jest-dom husky msw prettier
 ```
 ### set up command 
+- Lint test and format add to package.json in scrtip
 ```bash
-# Lint test and format add to package.json in scrtip
 "lint": "eslint  --ignore-path .gitignore .",
 "format": "prettier  --ignore-path .gitignore --write \"**/*.{ts,tsc,css,scss}\"",
 "coverage": "react-scripts test --coverage --watchAll --collectCoverageFrom='src/components/**/*.{ts,tsx}' --collectCoverageFrom='!src/components/**/*.{type,stories,constants,test,spec}.{ts,tsx}'",
 ```
+- in package.json in eslintConfig add
 
 ```bash
-# in package.json in eslintConfig add
  "plugin:jest-dom/recommended",
  "eslint-config-prettier"
 ```
