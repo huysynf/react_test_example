@@ -15,3 +15,10 @@
 ## setup test
 - [setup test](SETUPTEST.md)
 - [convention test](CONVENTIONTEST.md)
+
+
+# all package
+```bash 
+yarn add @reduxjs/toolkit dotenv react-redux sass plugin:jest-dom/recommended  eslint-config-prettier
+ yarn add -D eslint-config-prettier eslint-plugin-jest-dom  husky  msw prettier
+```
