@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.scss";
 import CounterTwo from "./components/CounterTwo";
 import User from "./components/User";
+import UserDisplay from "./components/users/UserDisplay";
 
 function App() {
   const [count, setCount] = useState<number>(0);
@@ -20,6 +21,7 @@ function App() {
         deIncrement={deIncrement}
       />
       <User />
+      <UserDisplay />
     </div>
   );
 }
