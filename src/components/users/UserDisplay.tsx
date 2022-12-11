@@ -13,7 +13,8 @@ export default function UserDisplay() {
 
   return (
     <div>
-      = <div>{userName}</div>
+      <div>User</div>
+      <div>{userName}</div>
       <button onClick={() => dispatch(fetchUser())}>Fetch user</button>
       {userFetchStatus === "loading" && <div>Fetching user...</div>}
     </div>
