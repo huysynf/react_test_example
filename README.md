@@ -15,3 +15,9 @@
 ## setup test
 - [setup test](SETUPTEST.md)
 - [convention test](CONVENTIONTEST.md)
+
+## testing example 
+-   Redux hook : [src/__tests__/user-display.test.tsx](/src/__tests__/user-display.test.tsx)
+-  React router: [src/__tests__/test-router.test.tsx](/src/__tests__/test-router.test.tsx)
+-  Props Action: [src/__tests__/counter-two.test.tsx](/src/__tests__/counter-two.test.tsx)
+- Basic test [src/__tests__/counter.test.tsx](/src/__tests__/counter.test.tsx)
