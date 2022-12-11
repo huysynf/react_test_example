@@ -3,8 +3,7 @@ import { userAPI } from "./userAPI";
 import type { RootState } from "../../app/store";
 
 export const fetchUser = createAsyncThunk("user/fetchUser", async () => {
-  const response = await userAPI.fetchUser();
-  return response;
+  return await userAPI.fetchUser();
 });
 
 interface UserState {
