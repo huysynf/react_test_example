@@ -5,7 +5,6 @@ function User() {
   const [error, setError] = useState<string | null>(null);
   const API_URL = "https://jsonplaceholder.typicode.com/users";
   useEffect(() => {
-    console.log(process.env);
     const fetchUsers = async () => {
       fetch(API_URL)
         .then((res) => res.json())
